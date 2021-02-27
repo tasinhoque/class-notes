@@ -1,7 +1,8 @@
 # Class Notes
 
-Here I'll be storing all of my class notes from level 4. I'll
-be taking the following courses in term 1:
+Here, I'll be storing all of my class notes from level 4. 
+
+I'll be taking the following courses in term 1:
 
 - _CSE 405:_ [Computer Security](https://bdren.zoom.us/j/64689450739?pwd=SzUwL0o5WEZMVWIyRXY4dzN2RXo2UT09)
 - _CSE 406:_ Computer Security Sessional
