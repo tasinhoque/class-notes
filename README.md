@@ -33,4 +33,4 @@ Here is my class routine:
 [graphics]: https://bdren.zoom.us/j/62457340769?pwd=K3NKa1BHejBlZHBNUGdLNmF4WjlJZz09
 [hci]: https://bdren.zoom.us/j/67578331133?pwd=L2M2c2lOeDVBZU9kYUd5RXdqRVBmUT09
 [hpds]: https://bdren.zoom.us/j/69610537328?pwd=ejZxbTNlRnVQb2NrRm9veUlkeXo2dz09
-[economics]: https://colgate.zoom.us/j/93101733729
+[economics]: https://bdren.zoom.us/j/63764288740?pwd=N3l3YklKNXBva0toRVNJWWM5Vk4wUT09
