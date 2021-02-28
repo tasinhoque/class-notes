@@ -21,16 +21,19 @@ interesting enough) and three lab courses.
 
 Here is my class routine:
 
-| Day | 9-10 AM             | 10-11 AM            | 11 AM - 12 PM       | 12-1 PM              | 1-2 PM | 2-5 PM      |
-| --- | ------------------- | ------------------- | ------------------- | -------------------- | ------ | ----------- |
-| SAT | [CSE 409][graphics] | -                   | [CSE 425][hci]      | [HUM 475][economics] | -      | -           |
-| SUN | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [HUM 475][economics] | -      | CSE 406/410 |
-| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]  | -      | CSE 408     |
-| TUE | [CSE 453][hpds]     | -                   | THESIS              | THESIS               | THESIS | THESIS      |
-| WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics] | -      | -           |
+| Day | 9-10 AM             | 10-11 AM            | 11 AM - 12 PM       | 12-1 PM              | 1-2 PM | 2-5 PM                                      |
+| --- | ------------------- | ------------------- | ------------------- | -------------------- | ------ | ------------------------------------------- |
+| SAT | [CSE 409][graphics] | -                   | [CSE 425][hci]      | [HUM 475][economics] | -      | -                                           |
+| SUN | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [HUM 475][economics] | -      | CSE [406][security-lab]/[410][graphics-lab] |
+| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]  | -      | [CSE 408][dev]                              |
+| TUE | [CSE 453][hpds]     | -                   | THESIS              | THESIS               | THESIS | THESIS                                      |
+| WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics] | -      | -                                           |
 
 [security]: https://bdren.zoom.us/j/64689450739?pwd=SzUwL0o5WEZMVWIyRXY4dzN2RXo2UT09
 [graphics]: https://bdren.zoom.us/j/62457340769?pwd=K3NKa1BHejBlZHBNUGdLNmF4WjlJZz09
 [hci]: https://bdren.zoom.us/j/67578331133?pwd=L2M2c2lOeDVBZU9kYUd5RXdqRVBmUT09
 [hpds]: https://bdren.zoom.us/j/69610537328?pwd=ejZxbTNlRnVQb2NrRm9veUlkeXo2dz09
 [economics]: https://bdren.zoom.us/j/63764288740?pwd=N3l3YklKNXBva0toRVNJWWM5Vk4wUT09
+[dev]: https://bdren.zoom.us/j/69515307370?pwd=NXZWSDdTV0NJbGFaOHRmMVdMNzEwdz09
+[security-lab]: https://bdren.zoom.us/j/61088184684?pwd=eFpHWVJZNVdMak92UTVpaCtCMDd1Zz09
+[graphics-lab]: https://bdren.zoom.us/j/64503775361?pwd=NEV2UWxzc2Y0NzRZa2w0Y3Y5YjgxQT09
