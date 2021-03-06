@@ -21,13 +21,13 @@ interesting enough) and three lab courses.
 
 Here is my class routine:
 
-| Day | 9-10 AM             | 10-11 AM            | 11 AM - 12 PM       | 12-1 PM              | 1-2 PM           | 2-5 PM                  |
-| --- | ------------------- | ------------------- | ------------------- | -------------------- | ---------------- | ----------------------- |
-| SAT | [CSE 409][graphics] | -                   | [CSE 425][hci]      | [HUM 475][economics] | -                | [CSE 410][graphics-lab] |
-| SUN | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [HUM 475][economics] | -                | [CSE 410][graphics-lab] |
-| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]  | -                | [CSE 408][dev]          |
-| TUE | [CSE 453][hpds]     | -                   | [THESIS][thesis]    | [THESIS][thesis]     | [THESIS][thesis] | [THESIS][thesis]        |
-| WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics] | -                | -                       |
+| Day | 9-10 AM             | 10-11 AM            | 11 AM - 12 PM       | 12-1 PM              | 1-2 PM | 2-5 PM                  |
+| --- | ------------------- | ------------------- | ------------------- | -------------------- | ------ | ----------------------- |
+| SAT | [CSE 409][graphics] | -                   | [CSE 425][hci]      | [HUM 475][economics] | -      | [CSE 410][graphics-lab] |
+| SUN | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [HUM 475][economics] | -      | -                       |
+| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]  | -      | [CSE 408][dev]          |
+| TUE | [CSE 453][hpds]     | -                   | [THESIS][thesis]    |
+| WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics] | -      | -                       |
 
 [security]: https://bdren.zoom.us/j/64689450739?pwd=SzUwL0o5WEZMVWIyRXY4dzN2RXo2UT09
 [graphics]: https://bdren.zoom.us/j/62457340769?pwd=K3NKa1BHejBlZHBNUGdLNmF4WjlJZz09
