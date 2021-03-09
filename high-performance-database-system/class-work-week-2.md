@@ -16,8 +16,7 @@ There are 40 nodes and 40,000 tuples. Here is how the tuples will be distributed
 
 a. N`h(NID_i)` = [T`i`] (for all `i`)  
  Explanation: We'll put the `i`th tuple in the node having id equal to the result of the hash of NID`i`.  
-b. N`h(street_i, city_i, district_i)` = [T`i`] (for all `i`)  
- Explanation: We'll put the `i`th tuple in the node having id equal to the result of the hash of NID`i`.
+b. N`h(street_i, city_i, district_i)` = [T`i`] (for all `i`)
 
 ### Question 4-3
 
