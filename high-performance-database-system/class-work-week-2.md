@@ -85,4 +85,4 @@ b.
     Sum: 275  
     Average freq: 275 / 9 = 30.6
 
-c. ![img](https://i.imgur.com/JzWZSCx.png)
+c. ![img](https://i.imgur.com/f2rvYk9.png)
