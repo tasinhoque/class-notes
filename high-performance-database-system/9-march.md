@@ -41,7 +41,7 @@ b. Total frequencies = 5 \* (45 + 35 + 25 + 50 + 15) = 850 = 4 \* 212.5
 
 - Partition vector, V = [5, 10, 17]
 - Partitions:  
-  P`0` = [1, ..., 4], Sum: 180, Average freq: 180 / 5 = 36  
+  P`0` = [1, ..., 4], Sum: 180, Average freq: 180 / 4 = 45  
   P`1` = [5, ..., 9], Sum: 185, AF: 185 / 5 = 37  
   P`2` = [11, ..., 16], Sum: 210, AF: 210 / 6 = 35  
   P`3` = [17, ..., 25], Sum: 275, AF: 275 / 9 = 30.6
