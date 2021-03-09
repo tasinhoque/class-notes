@@ -49,7 +49,7 @@ c. Bad, since for range queries, all nodes must be processed.
 
 ### Question 5-3
 
-a. Good  
+a. Good, since it provides data clustering.  
 b. Good for point queries on partitioning attributes.  
 c. Good if the result tuples are from a few blocks.
 
