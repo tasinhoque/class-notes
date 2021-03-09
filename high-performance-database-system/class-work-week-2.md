@@ -37,20 +37,20 @@ b. For four nodes, the speed-up is four, since time elapsed has decreased four-f
 
 ### Question 5-1
 
-a. Good, since all nodes have almost an equal number of tuples.
-b. Good
+a. Good, since all nodes have almost an equal number of tuples.  
+b. Good  
 c. Bad, since we wouldn't get any range from such partitioning.
 
 ### Question 5-2
 
-a. Good when the hash function is good and partitioning attributes form a key, since tuples will be equally distributed between nodes.
-b. Good for point queries on partitioning attributes.
+a. Good when the hash function is good and partitioning attributes form a key, since tuples will be equally distributed between nodes.  
+b. Good for point queries on partitioning attributes.  
 c. Bad, since for range queries, all nodes must be processed.
 
 ### Question 5-3
 
-a. Good
-b. Good for point queries on partitioning attributes.
+a. Good  
+b. Good for point queries on partitioning attributes.  
 c. Good if the result tuples are from a few blocks.
 
 ### Question 6-1
