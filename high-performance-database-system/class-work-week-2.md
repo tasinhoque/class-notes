@@ -3,11 +3,11 @@
 ### Question 4-1
 
 There are 40 nodes and 40,000 tuples. Here is how the tuples will be distributed:  
-N`0` = [T`0`, T`40`, ..., ]
-N`1` = [T`1`, T`41`, ..., ]
-.
-.
-.
+N`0` = [T`0`, T`40`, ..., ]  
+N`1` = [T`1`, T`41`, ..., ]  
+.  
+.  
+.  
 N`39` = [T`39`, T`79`, ..., ]
 
 ### Question 4-2
