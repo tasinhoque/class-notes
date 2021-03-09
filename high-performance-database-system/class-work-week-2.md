@@ -79,9 +79,9 @@ b.
   - P`1` = [5, ..., 9]  
      Sum: 185  
      Average freq: 185 / 5 = 37
-  - P`2` = [11, ..., 16]  
+  - P`2` = [10, ..., 16]  
     Sum: 210  
-    Average freq: 210 / 6 = 35
+    Average freq: 210 / 7 = 30
   - P`3` = [17, ..., 25]  
     Sum: 275  
     Average freq: 275 / 9 = 30.6
