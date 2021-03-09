@@ -85,3 +85,5 @@ b.
   - P`3` = [17, ..., 25]  
     Sum: 275  
     Average freq: 275 / 9 = 30.6
+
+c. ![img](https://i.imgur.com/JbMK23l.png)
