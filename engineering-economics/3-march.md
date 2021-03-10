@@ -63,6 +63,6 @@ For example, a business with a one-year lease will have its long run defined as 
 
 ---
 
-Q = Output
+Q = Quantity (in x axis)
 
 ![average-fixed-cost](https://i.imgur.com/QftoG0g.png)
