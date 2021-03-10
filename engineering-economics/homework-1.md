@@ -45,4 +45,4 @@ MP = Marginal product
 
 Therefore we can conclude that cost and product are inversely proportional to each other.
 
-![product-vs-cost](https://cdn.shareyouressays.com/wp-content/uploads/hindi/What-is-the-Relationship-between-Product_ED4E/clip_image002_thumb.jpg)
+![product-vs-cost](https://i.imgur.com/m6Z0dbP.jpg)
