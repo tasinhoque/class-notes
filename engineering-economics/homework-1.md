@@ -13,7 +13,7 @@ TVC = N x Pc ...(iii)
 
 Here,  
 AC = Average cost  
-AP = Average product
+AP = Average product  
 TC = Total cost  
 Q = Total product/Quantity/Output  
 N = Number of units of variable input  
