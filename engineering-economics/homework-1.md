@@ -33,9 +33,8 @@ AVC = Average variable cost
 Now,
 
 MC = d(TVC) /dQ  
- = d(N x Pc)/dQ [Using (iii)]
-
-=> MC = Pc x dN / dQ  
+ = d(N x Pc)/dQ [Using (iii)]  
+ = Pc x dN / dQ  
  = Pc / (dQ / dN)  
  = Pc / MP [Using (ii)]
 
