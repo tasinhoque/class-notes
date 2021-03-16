@@ -8,7 +8,7 @@ In this partitioning, virtual nodes can be moved from a heavily loaded (real) no
 
 In a parallel storage system, the partitioning table is usually stored in the master node. The table is usually replicated and distributed among routers and client nodes for faster query processing.
 
-This particular table helps routers to map virtual nodes to real nodes for a particular query. When a router accepts a read/write request from a client, it forwards the request to the appropriate real node.
+This particular table helps routers map virtual nodes to real nodes for a particular query. When a router accepts a read/write request from a client, it forwards the request to the appropriate real node.
 
 Also, dynamic partitioning consistently changes the partitioning table, which means each update is applied to all instances of the table. Thus, query diversion is achieved.
 
