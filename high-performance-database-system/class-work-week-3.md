@@ -29,6 +29,6 @@ Disadvantages:
 
 Using 64 MB block size, we can store the 10 GB file in (10 GB / 64 MB) ~~ 160 blocks
 
-If we allocate 16 blocks for a DataNode, we'll need 10 DataNodes. Additionally, two more sets of 10 DataNodes will be needed. Each of those 10 DataNodes will store replicas of the blocks. Hence, total 30 DataNodes will be required for the job which can be distributed among 3 racks (10 DataNodes per rack).
+If we allocate 16 blocks for a DataNode, we'll need 10 DataNodes. Additionally, two more sets of 10 DataNodes will be needed. Each of those 10 DataNodes will store replicas of the blocks. Hence, total 30 DataNodes will be required for the job. These nodes can be distributed among 3 racks (10 DataNodes per rack).
 
 The NameNode will contain 160 blockId entries against the given file name.
