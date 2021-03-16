@@ -15,12 +15,12 @@ Disadvantages:
 
 64 MB block size, 10 GB file, so there'd be 10^10/(64x10^6) = (at least) 157 blocks ~ 160 blocks
 
-We assume there's 1000 DataNodes
+We assume there's 1000 DataNodes and one rack contains 40 DataNodes
 
-1 rack contains 40 DataNodes, so there's 25 racks
+So there's 1000/40 = 25 racks
 
-160 entries in the NameNode
+There will be 160 entries in the NameNode
 
-10 DataNodes will contain the blocks and further 20 DataNodes will contain replicas
+10 DataNodes will contain the blocks and further 20 DataNodes will contain replicas of those blocks
 
-So, each DataNodes can contain ceil(160/30) = 6 blocks
+So, each DataNode will have the capacity to store ceil(160/30) = 6 blocks
