@@ -1,37 +1,39 @@
-Let us assume that the factors of production are capital (K) and labor (L), wage rate for labor is w and rental price of capital is k.
+Cobb-Douglas equation:
 
-Then, in an isocost curve, the total cost is
+Y = A x K ^ (alpha) x L ^ (beta)
 
-C = rK + wL
+A = level of technology
 
-=> K = (-w/r)L + C ...(i)
+Isocost equation:
 
-By differentiating (i) with respect to L, we get
+C = wL + rK
 
-dK/dL = -w/r
+We assume,  
+w = 5,  
+r = 10,  
+Y = 500,  
+alpha = .3,  
+beta = .7,  
+A = 2
 
-Therefore, if we draw a K vs L isocost graph, the slope would be (-w/r).
+500 = 2 x K ^ .3 x L ^ .7 ...(i)
 
-In an isoquant curve, the total quantity is
+C = 5 x L + 10 x K
 
-Q = f(K, L) = Y (suppose) ...(ii)
+dK/dL = -w/r = -0.5
 
-in other words, it's a function of K and L
+del`Y` / del`L` = .7 x 2 x K ^ .3 x L ^ (-.3)
 
-By taking partial derivative of (ii), we get
+del`Y` / del`K` = .3 x A x K ^ (-.7) x L ^ .7
 
-d`Y` = del`Y` / del`K` x d`K` + del`Y` / del`L` x d`L`  
- = 0 (since quantity is constant in an isoquant graph)
+dK/dL = -(.7 x K) / (.3 x L) = -0.5
 
-=> dK/dL = -(del`Y`/ del`L`)/(del`Y` / del`K`)
+=> K = 3L / 14 ...(ii)
 
-But at the point of producer's equilibrium, the slope of the isocost curve and the slope of the isoquant curve are equal. Hence,
+(i) & (ii) =>
 
-dK/dL = -w/r = -(del`Y`/ del`L`)/(del`Y` / del`K`)
+500 = 2 x (3L / 14) ^ .3 x L ^ .7 = 2L x (3/14)^.3
 
-=> (del`Y`/ del`L`) / w = (del`Y` / del`K`) / r
+=> L = 448.2
 
-This last expression tells us that to minimize cost for a given level of output, a firm
-should hire inputs up to the point where the last dollar spent on each input results in
-the same increase in output. If this equality did not hold, a firm could lower its costs by
-using more of one input and less of the other.
+Hence, K = 96.04
