@@ -10,7 +10,7 @@ There are 4 runs. If we take 5 as our memory size, we'll be able to keep a input
 
 b. Memory size = number of elements
 
-c. If we increase memory size, number of run will decrease.
+c. If we increase memory size, number of merge pass will decrease and hence, sort performance will increase.
 
 ## Question 10-2
 
