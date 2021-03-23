@@ -73,4 +73,4 @@ b. Pipeline parallelism is faster than independent parallelism.
 
 Execution takes place in stages for independent parallelism. At first, only the leaf nodes are allowed to run. After all of them are finished, the parent nodes can start running. This wastes a lot of CPU time since many parent nodes have to stay idle even when their children have finished executing.
 
-Even though pipeline parallelism is slower than the combined one, it's still faster than the independent one since a group of nodes doesn't block out other nodes here. As soon as the node in control finishes execution, the next node takes control.
+Even though pipeline parallelism is slower than the combined one, it's still faster than the independent one since a group of nodes don't block out other nodes here. As soon as the node in control finishes execution, the next node takes control.
