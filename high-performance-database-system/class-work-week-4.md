@@ -69,10 +69,10 @@ N3: temp3 = s5 join s6 }
 N4: temp4 = temp1 join temp2 } Pipeline parallelism  
 N5: result = temp3 join temp4 }
 
-When execution of both N1 and N2 is finished, execution of N4 will begin and this node will run in parallel with N3. Execution of N5 will begin only after both N3 and N4 have finished executing.
+When execution of both N1 and N2 is finished, execution of N4 will begin and this node will run in parallel with N3. Execution of N5 will begin only when both N3 and N4 have finished executing.
 
 b. Pipeline parallelism is faster than independent parallelism.
 
-Execution takes place in stages in independent parallelism. At first, only the leaf nodes are allowed to run. After all of them are finished, the parent nodes can start running. This wastes a lot of CPU time since many parent nodes have to stay idle even when their children have finished executing.
+Execution takes place in stages in independent parallelism. At first, only the leaf nodes are allowed to run. When all of them are finished, the parent nodes can start running. This wastes a lot of CPU time since many parent nodes have to stay idle even when their children have finished executing.
 
 Even though pipeline parallelism is slower than the combined one, it's still faster than the independent one since a group of nodes don't block out other nodes here. As soon as the node in control finishes execution, the next node takes control.
