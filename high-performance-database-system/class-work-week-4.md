@@ -48,11 +48,11 @@ In r1 join r2, intra-operation parallelism takes place. Inter-operation parallel
 
 The 30 nodes can be assigned to process the following things:
 
-N`1-10`: r1 join r2  
-N`11-20`: temp1 join r3  
-N`21-30`: temp2 join r4
+N1 - N10: r1 join r2  
+N11 - N20: temp1 join r3  
+N21 - N30: temp2 join r4
 
-We'll repartition r1 and r2 from the 30 nodes to N1, N2, ..., N10. We'll to do the same partitioning for the pairs (temp1, r3) and (temp2, r4).
+We'll repartition r1 and r2 from the 30 nodes to N1, N2, ..., N10. We'll perform similar partitioning on the pairs (temp1, r3) and (temp2, r4).
 
 b.
 
@@ -66,10 +66,10 @@ N1: temp1 = s1 join s2 }
 N2: temp2 = s3 join s4 } Independent parallelism  
 N3: temp3 = s5 join s6 }
 
-N4: temp4 = temp1 join temp2 } Pipelined parallelism  
+N4: temp4 = temp1 join temp2 } Pipeline parallelism  
 N5: result = temp3 join temp4 }
 
-After execution of both N1 and N2 are finished, execution of N4 will begin and will run in parallel with N3. Execution of N5 will begin only after both N3 and N4 have finished executing.
+When execution of both N1 and N2 is finished, execution of N4 will begin and will run in parallel with N3. Execution of N5 will begin only after both N3 and N4 have finished executing.
 
 b. Pipeline parallelism is faster than independent parallelism.
 
