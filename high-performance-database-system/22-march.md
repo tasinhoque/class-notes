@@ -1,25 +1,23 @@
-## Question 10-1
-
 M = Memory size
 
 N = Number of runs
 
-a. (Sir said, wrong in my opinion: M = 4, 3 runs, 1 merge pass)
+## Question 10-1
 
-There are 4 runs. If we take 5 as our memory size, we'll be able to keep a input buffer of size four (equal to the run count).
+a. There are 4 runs. If we take 5 as our memory size, we'll be able to keep an input buffer of size four (equal to the run count) and will be able to perform external sort in one pass.
 
-b. Memory size = number of elements
+b. If we take a memory size equal to the number of elements we need to sort, quicksort can be used.
 
-c. If we increase memory size, number of merge pass will decrease and hence, sort performance will increase.
+c. If we increase memory size, number of merge pass will decrease and sort performance will increase consequently.
 
 ## Question 10-2
 
-a. Since the relation has been range-partitioned on the attributes on which it is to be sorted, we can sort each partition separately and concatenate the results to get the full sorted relation.
+a. Since the relation has been range-partitioned on the attribute on which it is to be sorted, we can sort each partition separately and concatenate the results to get the full sorted relation.
 
 b. We can do either of the two things below:
 
-- We can range-partition the relation on the sort attributes, and then sort each partition separately.
-- We can use a parallel version of the external sort-merge algorithm.
+- We can range-partition the relation on the sort attributes and sort each partition separately.
+- We can use a parallel version of the external merge sort algorithm.
 
 ---
 

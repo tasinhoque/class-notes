@@ -1,8 +1,8 @@
 ## Question 11-1
 
-intraoperation: a single delta
+intraoperation: a single join
 
-pipeline: between two deltas
+pipeline: between two joins
 
 divide 30 nodes in 3 groups
 
