@@ -1,61 +1,30 @@
 ## Question 11-1
 
-intraoperation: a single join
+a. Intra-operation parallelism: There will be a single join operation running in multiple processors in parallel.
 
-pipeline: between two joins
+Inter-operation parallelism: We'll divide the 30 nodes into 3 groups. If we assume they are m1, m2 and m3, the execution will look like this:
 
-divide 30 nodes in 3 groups
+temp1 = m1 join m2
 
-we'll create a scheme with 10 nodes
-
-there will be 3 schemes running parallel
-
-there will be 3 pipelines, each of the pipeline will execute the query in the sequence N1 -> N2 -> ... -> N30
-
-or we can use only one pipeline
-
-one of these scheme is inter-operation pipeline parallelism and another one is intra-operation parallelism for individual join
-
-repartition r1, r2, r3 and r4
+res = temp1 join m3
 
 ## Question 11-2
 
-### Independent parallelism
+a. The operations at each of the nodes are:
 
-N1  
-temp1 = s1 join s2
+(independent parallelism)  
+N1: temp1 = s1 join s2  
+N2: temp2 = s3 join s4  
+N3: temp3 = s5 join s6
 
-N2  
-temp2 = s3 join s4
+(pipelined parallelism)  
+N4: temp4 = temp1 join temp2  
+N5: result = temp3 join temp4
 
-N3  
-temp3 = s5 join s6
+After execution of both N1 and N2 are finished, execution of N4 will begin and will run in parallel with N3. Execution of N5 will begin only after both N3 and N4 have finished executing.
 
-N4  
-temp4 = temp1 join temp2
+b. Pipeline parallelism is faster than independent parallelism.
 
-N5  
-temp5 = temp3 join temp4
+Execution takes place in stages for independent parallelism. At first, only the leaf nodes are allowed to run. After all of them are finished, the parent nodes can start running. This wastes a lot of CPU time since many parent nodes have to stay idle even when their children have finished executing.
 
-### Pipelined parallelism
-
-N1  
-temp1 = s1 join s2
-
-N2  
-temp2 = s3 join temp1
-
-N3  
-temp3 = s4 join temp2
-
-N4  
-temp4 = s5 join temp3
-
-N5  
-temp5 = s6 join temp4
-
-### Comparison:
-
-Independent parallelism will be faster than the pipelined version since the query tree of independent parallelism is shallower than the other. When we're computing the time complexity for independent parallelism, we're taking the max time among the child nodes for computing the time for the parent. But time accumulates linearly in case of pipelined parallelism.
-
-Best: combination of independent and pipelined is most efficient
+Even though pipeline parallelism is slower than the combined one, it's still faster than the independent one since a group of nodes don't block out other nodes here. As soon as the node in control finishes execution, the next node takes control.

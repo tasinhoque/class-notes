@@ -17,18 +17,12 @@ b. We'll perform the join operation in the following way:
 
 2. We'll assign r1', r2', ..., r6' to nodes N1, N2, ..., N6. Again, same thing for s.
 
-3. We'll
-
-Perform r1' join s1' at node N1.  
- Perform r2' join s2' at node N2.  
- .  
- .  
- .  
- Perform r6' join s6' at node N6.
+3. We'll perform ri' join si' at node Ni.
 
 ## Question 9-2
 
-Since number of partitioning nodes is equal to number of query nodes and the partitioning attribute and the query attribute are same, repartitioning is redundant.
+a. We'll compute the join by performing ri join si at node Ni.
+b. Since number of partitioning nodes is equal to number of query nodes and the partitioning attribute and the query attribute are same, repartitioning is redundant.
 
 ## Question 10-1
 
@@ -49,23 +43,22 @@ b. We can do either of the two things below:
 
 ## Question 11-1
 
-a. Intra-operation parallelism: There will be a single join operation running in multiple processors in parallel.
+b.
 
-Inter-operation parallelism: We'll divide the 30 nodes into 3 groups. If we assume they are m1, m2 and m3, the execution will look like this:
-
-temp1 = m1 join m2
-
-res = temp1 join m3
+![img](https://i.imgur.com/VTyLxEF.png)
 
 ## Question 11-2
 
 a. The operations at each of the nodes are:
 
+(independent parallelism)  
 N1: temp1 = s1 join s2  
 N2: temp2 = s3 join s4  
-N3: temp3 = s5 join s6  
+N3: temp3 = s5 join s6
+
+(pipelined parallelism)  
 N4: temp4 = temp1 join temp2  
-N5: temp5 = temp3 join temp4
+N5: result = temp3 join temp4
 
 After execution of both N1 and N2 are finished, execution of N4 will begin and will run in parallel with N3. Execution of N5 will begin only after both N3 and N4 have finished executing.
 
