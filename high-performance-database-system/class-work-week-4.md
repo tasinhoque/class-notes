@@ -49,13 +49,13 @@ b. We can do either of the two things below:
 
 ## Question 11-1
 
-a. Intra-operation parallelism: There will be a single join operation.
+a. Intra-operation parallelism: There will be a single join operation running in multiple processors in parallel.
 
 Inter-operation parallelism: We'll divide the 30 nodes into 3 groups. If we assume they are m1, m2 and m3, the execution will look like this:
 
-temp1 = m1 + m2
+temp1 = m1 join m2
 
-res = temp1 + m3
+res = temp1 join m3
 
 ## Question 11-2
 
