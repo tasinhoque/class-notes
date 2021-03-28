@@ -69,7 +69,7 @@ N3: temp3 = s5 join s6 }
 N4: temp4 = temp1 join temp2 } Pipeline parallelism  
 N5: result = temp3 join temp4 }
 
-When execution of both N1 and N2 is finished, execution of N4 will begin and this node will run in parallel with N3. Execution of N5 will begin only when both N3 and N4 have finished executing.
+When execution of both N1 and N2 are finished, execution of N4 will begin and this node will run in parallel with N3. Execution of N5 will begin only when both N3 and N4 have finished executing.
 
 b. Pipeline parallelism is faster than independent parallelism.
 
