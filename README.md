@@ -30,7 +30,7 @@ Here is my class routine:
 | WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics-nazmul] | -      | -                       |
 
 [security]: https://bdren.zoom.us/j/64689450739?pwd=SzUwL0o5WEZMVWIyRXY4dzN2RXo2UT09
-[graphics]: https://bdren.zoom.us/j/62457340769?pwd=K3NKa1BHejBlZHBNUGdLNmF4WjlJZz09
+[graphics]: https://bdren.zoom.us/j/62827918565?pwd=dktTRWZyTVpHVnJwT3VXYldCdWVPdz09&fbclid=IwAR2VJs1GGwu7YFgtM8KT5GpNtK1fOyDtsW8mT7FgM27fBUEsPIIq6FIc1mk
 [hci]: https://bdren.zoom.us/j/67578331133?pwd=L2M2c2lOeDVBZU9kYUd5RXdqRVBmUT09
 [hpds]: https://bdren.zoom.us/j/69610537328?pwd=ejZxbTNlRnVQb2NrRm9veUlkeXo2dz09
 [economics-nazmul]: https://colgate.zoom.us/j/93101733729
