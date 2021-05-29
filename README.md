@@ -25,7 +25,7 @@ Here is my class routine:
 | --- | ------------------- | ------------------- | ------------------- | --------------------------- | ------ | ----------------------- |
 | SAT | [CSE 409][graphics] | -                   | [CSE 425][hci]      | [HUM 475][economics-nazmul] | -      | [CSE 410][graphics-lab] |
 | SUN | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [HUM 475][economics-rouf]   | -      |                         |
-| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]         | -      | [CSE 410][dev]          |
+| MON | [CSE 453][hpds]     | [CSE 405][security] | [CSE 425][hci]      | [CSE 409][graphics]         | -      | [CSE 408][dev]          |
 | TUE | [CSE 453][hpds]     | -                   | [THESIS][thesis]    |
 | WED | [CSE 405][security] | -                   | [CSE 409][graphics] | [HUM 475][economics-nazmul] | -      | -                       |
 
