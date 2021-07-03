@@ -33,7 +33,7 @@ Here is my class routine:
 [graphics]: https://bdren.zoom.us/j/62827918565?pwd=dktTRWZyTVpHVnJwT3VXYldCdWVPdz09&fbclid=IwAR03Dd_FmA1nUzz6O655AzBMSGDkxjw6eknuxPK2BI3rmEkkq3zZLg2Gzmw
 [hci]: https://bdren.zoom.us/j/67578331133?pwd=L2M2c2lOeDVBZU9kYUd5RXdqRVBmUT09
 [hpds]: https://bdren.zoom.us/j/69610537328?pwd=ejZxbTNlRnVQb2NrRm9veUlkeXo2dz09
-[economics-nazmul]: https://colgate.zoom.us/j/93101733729
+[economics-nazmul]: https://us04web.zoom.us/j/73611825708?pwd=MXBQZGxOelI1NGpMQnphNUdLSVRQQT09&fbclid=IwAR3l5k9g62Om6ORsuls_0LOuj-MdeHDFg4YAQ_UqA-9Y76o08uHuQZ2_iwI
 [economics-rouf]: https://bdren.zoom.us/j/63764288740?pwd=N3l3YklKNXBva0toRVNJWWM5Vk4wUT09
 [dev]: https://bdren.zoom.us/j/69515307370?pwd=NXZWSDdTV0NJbGFaOHRmMVdMNzEwdz09
 [security-lab]: https://bdren.zoom.us/j/61088184684?pwd=eFpHWVJZNVdMak92UTVpaCtCMDd1Zz09
